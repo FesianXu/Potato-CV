@@ -117,7 +117,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=fonts/]{FontAwesome}
+% \newfontfamily\FA[Path=fonts/]{FontAwesome}
 
 % Define font to use according to localFont option
 \ifundef{\@local}
@@ -217,14 +217,15 @@
 
 % Render author's homepage
 % Usage: \homepage{<homepage>}
-\newcommand*{\homepage}[1]{\normalsize \sociallink{\homeSymbol}{https://blog.csdn.net/LoseInVain}{blog: FesianXu}}
+\newcommand*{\homepage}[2]{\normalsize \sociallink{\homeSymbol}{#1}{blog: #2}}
 
 % Render author's homepage
 % Usage: \weibo{<weibo>}
 \newcommand*{\weibo}[1]{\sociallink{\weiboSymbol}{http://www.weibo.com/#1}{weibo.com/#1}}
 
-\newcommand*{\stackoverflow}[1]{\normalsize \sociallink{\faStackOverflow}{https://stackoverflow.com/users/7348519/fesianxu}{StackOverflow}}
+% \newcommand*{\stackoverflow}[1]{\normalsize \sociallink{\faStackOverflow}{https://stackoverflow.com/users/7348519/fesianxu}{StackOverflow}}
 
+\newcommand*{\stackoverflow}[2]{\normalsize \sociallink{\faStackOverflow}{https://stackoverflow.com/users/#1}{#2}}
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
@@ -236,7 +237,7 @@
 
 % Render author's github (optional)
 % Usage: \github{<github-nick>}
-\newcommand*{\github}[1]{\sociallink{\githubSymbol}{https://www.github.com/#1}{\normalsize github: #1}}           % Github icon + URL
+\newcommand*{\github}[2]{\sociallink{\githubSymbol}{https://www.github.com/#1}{\normalsize github: #2}}         % Github icon + URL
 
 % Render author's email (optional)
 % Usage: \email{<email adress>}

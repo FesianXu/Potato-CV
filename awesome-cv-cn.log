@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2019.2.27)  23 MAY 2020 01:04
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2019.2.27)  18 JUN 2020 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -965,24 +965,6 @@ Library (tcolorbox): 'tcbskins.code.tex' version '4.03'
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.03'
 )))
 Package hyperref Info: Option `breaklinks' set `true' on input line 94.
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "FontAwesome" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FontAwesome(1)' created for font 'FontAwesome' with options
-. [Mapping=tex-text,Path=fonts/].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"[fonts/FontAwesome]/OT:mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-LaTeX Info: Redefining \FA on input line 120.
 \g__fontspec_family_SourceSansPro-Light_int=\count186
 .................................................
 . fontspec info: "defining-font"
@@ -1713,11 +1695,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 39514 strings out of 493005
- 780996 string characters out of 6137956
- 883623 words of memory out of 5000000
- 43051 multiletter control sequences out of 15000+600000
- 4248 words of font info for 46 fonts, out of 8000000 for 9000
+ 39505 strings out of 493005
+ 780696 string characters out of 6137956
+ 883389 words of memory out of 5000000
+ 43046 multiletter control sequences out of 15000+600000
+ 4232 words of font info for 44 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  62i,11n,87p,10421b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 

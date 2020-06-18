@@ -19,6 +19,12 @@
 
 为了能够对这个LaTex CV进行编译，笔者推荐大家下载TexStudio[1]作为编辑器，TexLive[2]作为编译器对整个Latex文档进行编译，直接用TexStudio打开根目录下的`awesome-cv-cn.tex`修改成自己的文本之后，就可以编译并且得到最终的pdf文档。
 
+在开始编译之前，建议设置TexStudio的默认编译器为`xelatex`，具体操作：
+
+options->configure TexStudio->Build->Default Compiler
+
+
+
 # Reference
 
 [1]. http://texstudio.sourceforge.net/
