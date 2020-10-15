@@ -69,7 +69,7 @@
 % \DeclareUnicodeCharacter{00E9}{\'{e}}  %luatex
 
 % Define default accent colors
-\definecolor{basecolor}{HTML}{000066}       %BLUE
+\definecolor{basecolor}{HTML}{000060}       %BLUE
 
 \ifundef{\@green} {
   \ifundef{\@red} {
@@ -153,6 +153,7 @@
 \newcommand{\linkedinSymbol}{\faLinkedin}
 \newcommand{\mobileSymbol}{\faMobilePhone}
 \newcommand{\githubSymbol}{\faGithub}
+\newcommand{\moremeSymbol}{\faCube}
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black} }
 \newcommand\important[1]{\textbf #1}
@@ -234,6 +235,7 @@
 % Render author's viadeo(optional)
 % Usage: \viadeo{<viadeo-nick>}
 \newcommand*{\viadeo}[1]{\sociallink{\viadeoSymbol}{http://www.viadeo.com/fr/profile/#1}{viadeo.com/fr/profile/#1}} 
+\newcommand*{\moreme}[2]{\sociallink{\moremeSymbol}{#2}{#1}}
 
 % Render author's github (optional)
 % Usage: \github{<github-nick>}

@@ -25,6 +25,15 @@ options->configure TexStudio->Build->Default Compiler
 
 
 
+# 更新日志
+
+**2020.10.15**: 
+
+1. 添加了`\moreme`选项，其可以展示在线简历，比如领英或者`github page`个人页面等，方便展示更为完善的项目和科研经历。
+2. 完善了行间距。
+
+
+
 # Reference
 
 [1]. http://texstudio.sourceforge.net/
